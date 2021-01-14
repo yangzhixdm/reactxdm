@@ -14,9 +14,10 @@ class Header extends React.Component {
     this.setState({
       text: 'fdfdffs'
     })
+
     setTimeout(() => {
-      console.log(this.state)
-    }, 0)
+      console.log(this.state.text)
+    })
   }
 
   render () {
