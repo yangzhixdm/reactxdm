@@ -2,6 +2,7 @@ import React from 'react'
 import Info from './Info'
 import Header from './header'
 import axios from 'axios'
+import './App.css'
 
 class Hello extends React.Component {
   constructor(props) {
